@@ -23,7 +23,6 @@ This pipeline is designed to process VCF files, extract specific variants, and c
 Rename the files and modify the variant IDs to `chr:pos:ref:alt`.
 All output files of this step are located here: `/lustre06/project/6061810/shared/PBS/PAPER_version/all_variants`
 
-
 ### Step 2: Extract pQTL from Zhang Paper 2022
 
 Prepare the Zhang file and extract the variants per chromosome.
