@@ -8,14 +8,14 @@
 
 #------------------------------
 
-path_1000G=/lustre06/project/6061810/shared/HGDP_1KG/unfiltered_vcfs
+path_1000G=<path/to/HGDP+1KG>
 
 module load bcftools
 module load r
 
 
-step1="FALSE"
-step2="FALSE"
+step1="TRUE"
+step2="TRUE"
 step2_2="TRUE"
 step3_0="TRUE"
 step3="TRUE"
@@ -116,10 +116,6 @@ if [ $step3 == "TRUE" ]; then
 	#launch PBS computation
 	python3 FINAL_MAF_PBS_computation.py UNR_zhang.gnomad.genomes.v3.1.2.hgdp_tgp.vcf.gz 
 
-	#--------------Plot PBS---------------------
-
-	#launch graphic representation of PBS values
-	#module load r/4.2.1
-	#Rscript manhattan_PBS.R
+	
 	
 fi
