@@ -4,7 +4,9 @@
 
 # Variant Extraction and PBS Computation Pipeline
 
-This pipeline is designed to process VCF files, extract specific variants, and compute Population Branch Statistics (PBS). It includes multiple steps, from renaming files and modifying variant IDs to computing PBS and generating plots.
+This pipeline is designed to process VCF files, extract specific variants, and compute Population Branch Statistics (PBS). It includes multiple steps, from renaming files and modifying variant IDs to computing PBS and generating plots. 
+
+Data can be downloaded from the gnomAD website: https://gnomad.broadinstitute.org/news/2021-10-gnomad-v3-1-2-minor-release/
 
 ## Requirements
 
